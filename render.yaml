@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: truckbikebot
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python truckbike_bot.py"
-    autoDeploy: true
