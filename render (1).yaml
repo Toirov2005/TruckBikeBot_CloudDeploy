@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: TruckBikeBot_CloudDeploy
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python truckbike_bot.py"
